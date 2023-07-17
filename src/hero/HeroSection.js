@@ -8,14 +8,45 @@ export default function HeroSection() {
         <Card
           title={"Card 01"}
           subtitle={"This is sample text for the subtitle"}
+          longdesc={
+            "Long decriptions are really important. Due to lack of infomation in the Subtitle we really want to explain the title by the long description."
+          }
           status={true}
         />
-        <Card title={"Card 02"} status={false} />
-        <Card title={"Card 03"} status={false} />
-        <Card title={"Card 04"} status={false} />
-        <Card title={"Card 05"} status={true} />
-        <Card title={"Card 06"} status={false} />
-        <Card title={"Card 07"} status={true} />
+        <Card
+          title={"Card 02"}
+          subtitle={"This is sample text for the subtitle"}
+          longdesc={
+            "Long decriptions are really important. Due to lack of infomation in the Subtitle we really want to explain the title by the long description."
+          }
+          status={false}
+        />
+        <Card
+          title={"Card 03"}
+          subtitle={"This is sample text for the subtitle"}
+          longdesc={
+            "Long decriptions are really important. Due to lack of infomation in the Subtitle we really want to explain the title by the long description."
+          }
+          status={false}
+        />
+
+        <Card
+          title={"Card 04"}
+          subtitle={"This is sample text for the subtitle"}
+          longdesc={
+            "Long decriptions are really important. Due to lack of infomation in the Subtitle we really want to explain the title by the long description."
+          }
+          status={false}
+        />
+
+        <Card
+          title={"Card 05"}
+          subtitle={"This is sample text for the subtitle"}
+          longdesc={
+            "Long decriptions are really important. Due to lack of infomation in the Subtitle we really want to explain the title by the long description."
+          }
+          status={true}
+        />
       </div>
     </div>
   );
