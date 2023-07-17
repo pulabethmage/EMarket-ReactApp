@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card({ title, status }) {
+function Card({ title, subtitle, status }) {
   return (
     <div
       className={
@@ -9,7 +9,9 @@ function Card({ title, status }) {
           : "bg-gray-200 p-5 rounded-xl  hover:bg-gray-300"
       }
     >
-      {title}
+      <div className="font-bold text-lg font-display">{title}</div>
+      <div className="font-display text-sm">{subtitle}</div>
+      <div className="font-display ">{subtitle}</div>
     </div>
   );
 }
