@@ -26,7 +26,7 @@ function Card({ title, subtitle, longdesc, status }) {
       <div className="flex mt-2 items-center">
         <div className="flex-1 font-display text-sm  p-5">
           <h1 className="text-center">{longdesc}</h1>
-          <h1 className="bg-white py-1 rounded-md text-center mx-20 mt-3">
+          <h1 className="bg-white py-1 rounded-md text-center mx-20 mt-3 hover:bg-gray-400 duration-300 cursor-pointer">
             View
           </h1>
         </div>
